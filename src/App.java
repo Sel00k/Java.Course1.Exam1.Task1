@@ -4,6 +4,8 @@ public class App {
 
         Product p1 = new Product( "Хлеб" , 100 );
         Person  a1 = new Person( "Иванов" , 1000 );
+        Person  a2 = new Person( "Петров" , 2000 );
+
     }
 }
 
@@ -44,7 +46,7 @@ class Product {
 
 class Person {
     private String name;
-    private int cosel;
+    private int wallet;
     private Product[] products;
 
     // Конструктор по умолчанию
